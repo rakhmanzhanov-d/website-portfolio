@@ -16,6 +16,10 @@ const resourcesToPrecache = [
 	"img/reactInAction.jpg",
 	"img/shopify.jpg",
 	"img/youTube.jpeg",
+	"green.css",
+	"default.css",
+	"blue.css",
+	"purple.css",
 ];
 self.addEventListener("install", (event) => {
 	console.log("Install event!");
