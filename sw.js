@@ -1,5 +1,4 @@
 const cacheName = "cache-v1";
-console.log("Service worker is working");
 const resourcesToPrecache = [
 	"/",
 	"index.html",
