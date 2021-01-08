@@ -1,4 +1,5 @@
 let defferedPrompt;
+let btnAdd = document.querySelector("#submit-btn");
 window.addEventListener("beforeinstallprompt", (e) => {
 	e.preventDefault();
 	defferedPrompt = e;
@@ -6,6 +7,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
 });
 
 btnAdd.addEventListener("click", (e) => {
+	e.preventDefault();
 	defferedPrompt.prompt();
 	defferedPrompt.userChoice.then((chiceResult) => {
 		if (chiceResult.outcome === "accepted") {
