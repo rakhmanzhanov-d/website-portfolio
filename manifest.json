@@ -1,0 +1,14 @@
+{
+    "name": "Dastan's Offical portfolio website",
+    "short_name": "Dastan's portfolio",
+    "icons": [{
+        "src": "img/logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#FF0000",
+    "theme_color": "#ff0000"
+}
