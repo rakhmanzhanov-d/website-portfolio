@@ -20,6 +20,8 @@ const resourcesToPrecache = [
 	"default.css",
 	"blue.css",
 	"purple.css",
+	"files/DastanRakhmanzhanovResume.pdf",
+	"main.js",
 ];
 self.addEventListener("install", (event) => {
 	console.log("Install event!");
